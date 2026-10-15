@@ -1,9 +1,8 @@
-/* Base Resets & Variables */
 :root {
-    --primary-color: #2563eb; /* Royal Blue */
-    --dark-color: #0f172a;    /* Slate Dark */
-    --light-bg: #f8fafc;      /* Soft Light Gray */
-    --text-color: #334155;    /* Charcoal Text */
+    --primary-color: #2563eb;
+    --dark-color: #0f172a; 
+    --light-bg: #f8fafc;  
+    --text-color: #334155;  
     --white: #ffffff;
 }
 
@@ -23,8 +22,6 @@ body {
     color: var(--text-color);
     background-color: var(--white);
 }
-
-/* Global Layout Elements */
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -49,8 +46,6 @@ h2 {
     color: var(--dark-color);
     position: relative;
 }
-
-/* Sticky Navigation */
 .navbar {
     position: fixed;
     top: 0;
@@ -96,14 +91,13 @@ h2 {
     color: var(--primary-color);
 }
 
-/* Hero Section */
 .hero {
     height: 100vh;
     display: flex;
     align-items: center;
     background-color: var(--dark-color);
     color: var(--white);
-    padding-top: 60px; /* Offset for navbar */
+    padding-top: 60px; 
 }
 
 .hero-content {
@@ -126,8 +120,6 @@ h2 {
     margin-bottom: 2rem;
     color: #94a3b8;
 }
-
-/* Buttons */
 .btn {
     display: inline-block;
     background-color: var(--primary-color);
@@ -143,8 +135,6 @@ h2 {
     background-color: #1d4ed8;
     transform: translateY(-2px);
 }
-
-/* About Section */
 .about-grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -168,8 +158,6 @@ h2 {
     font-size: 0.9rem;
     font-weight: 500;
 }
-
-/* Projects Section Grid */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -209,7 +197,6 @@ h2 {
     font-weight: 600;
 }
 
-/* Contact Footer Styling */
 #contact p {
     max-width: 600px;
     margin: 0 auto 2rem auto;
@@ -224,7 +211,6 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Responsive Viewports */
 @media (max-width: 768px) {
     .about-grid {
         grid-template-columns: 1fr;
